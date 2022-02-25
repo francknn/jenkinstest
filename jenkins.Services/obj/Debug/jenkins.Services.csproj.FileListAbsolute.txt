@@ -1,0 +1,7 @@
+C:\Users\2N\source\repos\jenkins\jenkins.Services\bin\Debug\jenkins.Services.exe.config
+C:\Users\2N\source\repos\jenkins\jenkins.Services\bin\Debug\jenkins.Services.exe
+C:\Users\2N\source\repos\jenkins\jenkins.Services\bin\Debug\jenkins.Services.pdb
+C:\Users\2N\source\repos\jenkins\jenkins.Services\obj\Debug\jenkins.Services.csproj.AssemblyReference.cache
+C:\Users\2N\source\repos\jenkins\jenkins.Services\obj\Debug\jenkins.Services.csproj.CoreCompileInputs.cache
+C:\Users\2N\source\repos\jenkins\jenkins.Services\obj\Debug\jenkins.Services.exe
+C:\Users\2N\source\repos\jenkins\jenkins.Services\obj\Debug\jenkins.Services.pdb

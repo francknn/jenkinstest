@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "jenkins.Services/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/jenkins.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/jenkins.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "jenkins.Services/1.0.0": {
+      "type": "project",
+      "path": "../jenkins.Services/jenkins.Services.csproj",
+      "msbuildProject": "../jenkins.Services/jenkins.Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "jenkins.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\2N\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\2N\\source\\repos\\jenkins\\jenkins\\jenkins.csproj",
+      "projectName": "jenkins",
+      "projectPath": "C:\\Users\\2N\\source\\repos\\jenkins\\jenkins\\jenkins.csproj",
+      "packagesPath": "C:\\Users\\2N\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2N\\source\\repos\\jenkins\\jenkins\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\2N\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\2N\\source\\repos\\jenkins\\jenkins.Services\\jenkins.Services.csproj": {
+              "projectPath": "C:\\Users\\2N\\source\\repos\\jenkins\\jenkins.Services\\jenkins.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
